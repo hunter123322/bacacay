@@ -31,13 +31,13 @@
 
                 <!-- Map Placeholder -->
                 <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg h-64 md:h-80">
-                    <!-- <img src="https://www.flickr.com/photos/petertoshiro/3902193086/in/album-72157622314173742"
-                        alt="picture" class="w-full h-full object-cover" /> -->
-                    <iframe
+                    <img src="/src/assets/bacacay-map.png"
+                        alt="picture" class="w-full h-full object-cover" />
+                    <!-- <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.3631799429677!2d123.7920179469798!3d13.293487187156545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1ab54417b6e83%3A0x595093fab33f14e!2s7QVV%2BV27%2C%20Marbella%20St%2C%20Bacacay%2C%204509%20Albay!5e0!3m2!1sen!2sph!4v1753932948772!5m2!1sen!2sph"
                         loading="lazy" r eferrerpolicy="no-referrer-when-downgrade" alt="Map of Bacacay"
                         class="w-full h-full object-cover">
-                    </iframe>
+                    </iframe> -->
 
 
                 </div>

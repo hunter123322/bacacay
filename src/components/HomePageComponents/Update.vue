@@ -3,8 +3,12 @@
         <div id="updates" class="mb-16 md:mb-5 pt-20 bg-blue-50 rounded-lg p-8 shadow-inner">
             <h3 class="text-4xl font-bold text-blue-800 text-center mb-10">Latest Updates</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
                 <div v-for="(update, index) in visibleUpdates" :key="index"
                     class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                    <img :src="update.img.src" :alt="update.img.alt"
+                        class="rounded-md mb-4 w-full h-48 object-cover" />
+                        <img src="" alt="">
                     <h4 class="text-xl font-semibold text-blue-700 mb-2">{{ update.title }}</h4>
                     <p class="text-gray-600 text-sm mb-4">{{ update.date }}</p>
                     <p class="text-gray-700 leading-relaxed">{{ update.info }}</p>
